@@ -12,6 +12,6 @@
           - uses: actions/checkout@v2
           - uses: akhileshns/heroku-deploy@v3.12.11
             with:
-              heroku_api_key: ${{dbea8019-9e64-414d-8c5d-8e0071ac0ae8}}
+              heroku_api_key: ${{secrets.HEROKU_API_KEY}}
               heroku_app_name: "boiling-escarpment-10657"
               heroku_email: "ericduwe@gmail.com"
